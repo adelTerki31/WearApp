@@ -48,5 +48,9 @@ public class Message {
         this.coordinates = coordinates;
     }
 
-
+    @Override
+    public String toString() {
+        return "Message [id=" + id + ", student_id=" + student_id + ", student_message=" + student_message
+                + ", coordinates=" + coordinates + "]";
+    }
 }
